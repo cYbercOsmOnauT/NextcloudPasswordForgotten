@@ -1,0 +1,15 @@
+{
+    "name": "Change Pw Forgotten",
+    "description": "Change text and link of &quot;Password forgotten&quot;",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Tekin Birdüzen"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

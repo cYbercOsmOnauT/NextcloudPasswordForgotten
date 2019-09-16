@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>changepwforgotten</id>
+    <name>Change Pw Forgotten</name>
+    <summary>Change text and link of &quot;Password forgotten&quot;</summary>
+    <description><![CDATA[This addons simply gives the possibility to not only change the link but also the text of the password forgotten link.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="t_birduezen@maxon.net" homepage="https://www.maxon.net">Tekin Birdüzen</author>
+    <namespace>ChangePwForgotten</namespace>
+    <category>customization</category>
+    <bugs>https://github.com/cYbercOsmOnauT/NextcloudPasswordForgotten/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Change Pw Forgotten</name>
+            <route>changepwforgotten.page.index</route>
+        </navigation>
+    </navigations>
+</info>
